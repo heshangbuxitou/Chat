@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>welcome</title>
+	<link rel="stylesheet" href={{ url_for('static', filename='char_room.css') }}>
+</head>
+<body>
+	<form action="/user" method="get">
+		<table>
+			<tr>
+				<td>请输入你的用户名</td>
+				
+			</tr>
+			<tr>
+				<td><input type="text" name="username" id="root"></td>
+				<td><p class="h">&nbsp;*</p></td>
+			</tr>
+		</table>
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>
